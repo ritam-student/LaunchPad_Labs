@@ -1,10 +1,11 @@
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
-    <div>
-      start
+    <div className='w-full h-auto min-h-screen'>
+      <Home />
     </div>
   )
 }

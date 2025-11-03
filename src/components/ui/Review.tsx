@@ -1,6 +1,6 @@
 
 function Review(){
-    return <div className="border-dashed border-2 rounded-md border-[#ACD8FF] max-w-[300px] h-auto px-3 py-3 ">
+    return <div className="border-dashed border-2 min-w-[280px] rounded-md border-[#ACD8FF] max-w-[300px] h-auto px-3 py-3 shadow-lg shadow-[#62B5FF91]">
         <div className="flex items-center justify-start gap-2 mb-3">
             <div className=" bg-[#D9D9D9] h-10 w-10 rounded-[100%] "></div>
             <div className="">

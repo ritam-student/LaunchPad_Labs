@@ -1,6 +1,6 @@
 import Button2 from "./ui/Button2";
 
-function Ourprocess() {
+function OurProcess() {
     return <div className="px-4 md:px-8 lg:px-14 py-24">
         <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
             <Button2 text="Our Process" />
@@ -11,7 +11,7 @@ function Ourprocess() {
         <div className="h-auto w-full pt-4 pb-16 flex items-center justify-center px-14 text-center">
             <p className="text-[16px] leading-[24px] md:leading-[31px] ">A transparent, founder-friendly journey  from idea to live MVP in just <b>2 weeks.</b></p>
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 h-auto place-items-center">
+        <div className="w-full h-auto flex flex-col lg:flex-row items-center justify-center gap-2">
             <div>
                 <img src="/process_img1.png" alt="" />
             </div>
@@ -22,7 +22,7 @@ function Ourprocess() {
                 <img src="/process_img3.png" alt="" />
             </div>
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 h-auto place-items-center">
+        <div className="w-full h-auto flex items-center justify-center gap-2 flex-col lg:flex-row pt-6">
             <div>
                 <img src="/process_img4.png" alt="" />
             </div>
@@ -33,4 +33,4 @@ function Ourprocess() {
     </div>
 }
 
-export default Ourprocess;
+export default OurProcess;

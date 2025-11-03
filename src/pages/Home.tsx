@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonial";
 import OurProcess from "../components/OurProcess";
 import OurApproach from "../components/OurApproach";
+import WhyUs from "../components/WhyUs";
 
 
 function Home(){
@@ -18,6 +19,7 @@ function Home(){
 
     return <>
         <Navbar />
+        <WhyUs />
         <OurApproach />
         <OurProcess />
         <Testimonials />

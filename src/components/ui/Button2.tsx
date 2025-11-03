@@ -6,7 +6,7 @@ function Button2({text}: {text: string}){
             <div>
                 <img src="/button_circle.png" alt="circle" />
             </div>
-            <p>{text}</p>
+            <p className="text-black text-[14px] font-medium leading-[100%] ">{text}</p>
         </div>
     </button>
 }

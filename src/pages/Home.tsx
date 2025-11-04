@@ -5,6 +5,7 @@ import OurProcess from "../components/OurProcess";
 import OurApproach from "../components/OurApproach";
 import WhyUs from "../components/WhyUs";
 import OurWork from "../components/OurWork";
+import OurImpact from "../components/OurImpact";
 
 
 function Home(){
@@ -17,6 +18,7 @@ function Home(){
     })
 
     return <>
+        <OurImpact />
         <OurWork />
         <WhyUs />
         <OurApproach />

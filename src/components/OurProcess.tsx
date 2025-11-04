@@ -6,7 +6,7 @@ function OurProcess() {
             <Button2 text="Our Process" />
         </div>
         <div className="h-auto w-full pt-6 flex items-center justify-center">
-            <h2 className="text-[#202020] text-[28px] font-semibold leading-[31px] ">The LaunchPad Process</h2>
+            <h2 className="text-[#202020] text-[28px] font-semibold leading-[31px] text-center px-6 ">The LaunchPad Process</h2>
         </div>
         <div className="h-auto w-full pt-4 pb-16 flex items-center justify-center px-14 text-center">
             <p className="text-[16px] leading-[24px] md:leading-[31px] ">A transparent, founder-friendly journey  from idea to live MVP in just <b>2 weeks.</b></p>

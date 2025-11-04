@@ -11,7 +11,7 @@ function Testimonials(){
             {/* left part */}
             <div className="h-auto w-full lg:w-1/3 flex items-center justify-center flex-col ">
                 <div className="h-auto w-full flex items-center justify-center ">
-                    <p className="text-[#202020] text-[24px] font-semibold leading-[40px] pl-4 ">
+                    <p className="text-[#202020] text-[24px] font-semibold leading-[40px] lg:pl-4 text-center">
                         What Founders Are Saying About LaunchPad Labs
                     </p>
                 </div>

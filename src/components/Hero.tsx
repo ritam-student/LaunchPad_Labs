@@ -90,6 +90,9 @@ function Hero() {
                     </div>
                 </div>
             </div>
+            <div className=" h-auto w-[30%] absolute top-[45%] lg:top-[55%] left-[50%] translate-x-[-50%] md:top-[50%] md:translate-y-[-50%] translate-y-[-45%] lg:translate-y-[-55%] pt-8 flex items-center justify-center ">
+                <img src="/public/Book-a-call.png" alt="" />
+            </div>
         </div>
         
     </div>

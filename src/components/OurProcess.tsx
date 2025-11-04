@@ -1,7 +1,7 @@
 import Button2 from "./ui/Button2";
 
 function OurProcess() {
-    return <div className="px-4 md:px-8 lg:px-14 py-24">
+    return <section id="ourprocess" className="px-4 md:px-8 lg:px-14 py-24">
         <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
             <Button2 text="Our Process" />
         </div>
@@ -30,7 +30,7 @@ function OurProcess() {
                 <img src="/process_img5.png" alt="" />
             </div>
         </div>
-    </div>
+    </section>
 }
 
 export default OurProcess;

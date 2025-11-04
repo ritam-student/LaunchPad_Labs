@@ -20,7 +20,7 @@ function OurApproach() {
         "Modern, Scalable Stack"
     ];
 
-    return <div className="px-4 md:px-8 lg:px-14 py-24 bg-[#F3F7F8] ">
+    return <section id="howitworks" className="px-4 md:px-8 lg:px-14 py-24 bg-[#F3F7F8] ">
         <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
             <Button2 text="Our Approach" />
         </div>
@@ -36,9 +36,9 @@ function OurApproach() {
             </div>
         </div>
         <div className="w-full h-auto mt-16 flex items-center justify-center">
-            <Button text="Book My Free MVP Call" />
+            <Button text="Book My Free MVP Call" link="/book-a-call" />
         </div>
-    </div>
+    </section>
 }
 
 export default OurApproach;

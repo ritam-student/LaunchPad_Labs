@@ -42,14 +42,14 @@ function Navbar() {
                             ))
                         }
                     </div>
-                    <Button text="Book A Call" link="/book-a-call" />
+                    <Button text="Book A Call" link="/book-a-call" setCurrentTab={setCurrentTab} />
                 </div>
             </div>
 
             {/** right part for small screen **/}
             <div className="block lg:hidden">   
                 <div className="flex items-center justify-between gap-3 md:gap-5">
-                    <Button text="Book A Call" link="/book-a-call" />
+                    <Button text="Book A Call" link="/book-a-call" setCurrentTab={setCurrentTab} />
                     {
                         dropdown ?
                         <X onClick={() => setDropdown(prev => !prev)} className="cursor-pointer" size={"18px"}/>

@@ -4,7 +4,7 @@ import "./ourwork.css";
 import { Link } from "react-router-dom";
 
 function OurWork() {
-    return <section id="ourwork" className="px-4 md:px-8 lg:px-14 py-24 bg-[#F3F7F8] ">
+    return <section id="ourwork" className="px-6 md:px-12 lg:px-24 py-24 bg-[#F3F7F8] ">
         <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
             <Button2 text="Our Work" />
         </div>

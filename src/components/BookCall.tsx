@@ -31,7 +31,7 @@ function BookCall() {
         }
     ];
 
-  return <div className="h-auto w-full bg-[#F3F7F8] py-20 px-6 md:px-10 lg:px-12">
+  return <div className="h-auto w-full bg-[#F3F7F8] py-20 px-6 md:px-12 lg:px-24">
     <div className="h-auto w-auto inline-block ml-4 md:ml-20 lg:ml-3">
         <Button2 text='FAQ' />
     </div>
@@ -54,7 +54,7 @@ function BookCall() {
             <div className="p-[2px] shadow-xl shadow-[#1E71E526] bg-gradient-to-b from-[#9CC6FF] to-[#00D0FF] rounded-[31px] inline-block">
                 <div className="cursor-pointer px-4 py-2 rounded-[31px] text-[12px] md:text-sm text-white font-semibold w-auto h-auto bg-gradient-to-t from-[#0F93FF] to-[#003BB9] hover:scale-105 transition-all duration-300 ease-in-out flex items-center justify-center gap-1">
                     <div>
-                        <img src="/public/ic_round-call-end.png" alt="" />
+                        <img src="/ic_round-call-end.png" alt="" />
                     </div>
                     <p className="text-[#FFFFFF] text-[16px] font-semibold leading-[100%] pr-2">Book A Call</p>
                 </div>

@@ -22,7 +22,7 @@ function Navbar() {
         localStorage.setItem("currentTab", "Home");
     }
 
-    return <div className="bg-[#F3F7F8] h-auto w-full flex flex-col items-center  px-4 md:px-8 py-3 md:py-[20px] ">
+    return <div className="bg-[#F3F7F8] h-auto w-full flex flex-col items-center  px-6 md:px-12 lg:px-24 py-4 md:py-6 ">
         <div className=" container flex items-center justify-between w-full h-auto">
             {/** left part  **/}
             <Link to='/' onClick={setTab} className="relative overflow-hidden h-[50px] scale-110 md:scale-100 w-[47%] md:w-[30%] lg:w-[20%] flex items-center justify-center">

@@ -8,7 +8,7 @@ function VisionDetails(){
         navigate('/visions');
     }
 
-    return <div className="bg-[#F3F7F8] w-full h-auto pb-28 pt-10 px-6 md:px-10 lg:px-14">
+    return <div className="bg-[#F3F7F8] w-full h-auto pb-28 pt-10 px-6 md:px-12 lg:px-24">
         <button onClick={navigateBack} className=" px-2 py-1 border-dashed border-[2px] rounded-[26px] cursor-pointer ">
             <div className="flex items-center gap-2 ">
                 <div>
@@ -66,14 +66,14 @@ function VisionDetails(){
                     <div className="h-[360px] md:h-[450px] lg:h-[500px] w-[80%] md:w-1/2 max-w-[540px] bg-gradient-to-tl from-[#FFFFFF] to-[#BDD8EB] rounded-[20px] shadow-lg shadow-[#0000001A] "></div>
                     <div className="flex flex-col items-center justify-center  h-auto w-[80%] md:w-2/3 md:pl-20">
                         <p className="text-[#000000] text-[24px] font-semibold leading-[44px] self-start ">Hero Section</p>
-                        <p className="text-[#000000] text-[19px] font-normal leading-[24px] md:leading-[30px] lg:leading-[44px] mt-4 w-[100%] md:w-[90%] lg:w-[70%] self-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                        <p className="text-[#000000] text-[19px] font-normal leading-[24px] md:leading-[30px]  mt-4 w-[100%] md:w-[90%] lg:w-[70%] self-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                     </div>
                 </div>
                 <div className="h-auto w-full flex flex-col md:flex-row-reverse items-center justify-center md:justify-between gap-8">
                     <div className="h-[360px] md:h-[450px] lg:h-[500px] w-[80%] md:w-1/2 max-w-[540px] bg-gradient-to-tl from-[#FFFFFF] to-[#BDD8EB] rounded-[20px] shadow-lg shadow-[#0000001A] "></div>
                     <div className="flex flex-col items-center justify-center  h-auto w-[80%] md:w-2/3 md:pl-16">
                         <p className="text-[#000000] text-[24px] font-semibold leading-[44px] self-start ">Hero Section</p>
-                        <p className="text-[#000000] text-[19px] font-normal leading-[24px] md:leading-[30px] lg:leading-[44px] mt-4 w-[100%] md:w-[90%] lg:w-[70%] self-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                        <p className="text-[#000000] text-[19px] font-normal leading-[24px] md:leading-[30px]  mt-4 w-[100%] md:w-[90%] lg:w-[70%] self-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                     </div>
                 </div>
             </div>

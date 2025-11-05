@@ -8,10 +8,10 @@ function Visions() {
         navigate('/book-a-call');
     }
 
-    return <div className="bg-[#F3F7F8] h-auto w-full py-16 px-6 md:px-8 lg:px-12 ">
+    return <div className="bg-[#F3F7F8] h-auto w-full py-16 px-6 md:px-12 lg:px-24 ">
         <div className="h-auto w-full flex items-center flex-col md:flex-row justify-center md:justify-between gap-6 ">
             <div>
-                <h2 className="font-semibold text-[48px] leading-[31px]  ">From vision to <span className="font-semibold text-[48px] leading-[31px] ">Launchpad</span></h2>
+                <h2 className="font-semibold text-[48px] leading-[51px]  ">From vision to <span className="font-semibold text-[48px] leading-[51px] ">Launchpad</span></h2>
                 <p className="text-[#686868] font-[500] text-[17px] leading-[31px] mt-6">Explore some of the MVPs and products we've brought to life</p>
             </div>
             <div className="relative h-auto w-full md:w-auto flex items-center justify-center ">
@@ -28,7 +28,7 @@ function Visions() {
             </div>
         </div>
 
-        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] p-2 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-20">
+        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-20">
             <div className="p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>
@@ -49,7 +49,7 @@ function Visions() {
             <div className="bg-[#FFFFFF] w-[90%] md:w-[45%] h-[310px] shadow-lg shadow-[#0000001A] rounded-[16px]  "></div>
         </div>
 
-        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] p-2 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8">
+        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8">
             <div className="p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>
@@ -70,7 +70,7 @@ function Visions() {
             <div className="bg-[#FFFFFF] w-[90%] md:w-[45%] h-[310px] shadow-lg shadow-[#0000001A] rounded-[16px]  "></div>
         </div>
 
-        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] p-2 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8 mb-16">
+        <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8 mb-16">
             <div className="p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>

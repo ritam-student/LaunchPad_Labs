@@ -20,8 +20,8 @@ function OurApproach() {
         "Modern, Scalable Stack"
     ];
 
-    return <section id="howitworks" className="px-4 md:px-8 lg:px-14 py-24 bg-[#F3F7F8] ">
-        <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
+    return <section id="howitworks" className="px-6 md:px-12 lg:px-24 py-24 bg-[#F3F7F8] ">
+        <div className="h-auto w-full flex items-center justify-center">
             <Button2 text="Our Approach" />
         </div>
         <div className="h-auto w-full pt-6 flex items-center justify-center">

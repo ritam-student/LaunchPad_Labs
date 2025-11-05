@@ -7,11 +7,11 @@ function Testimonials(){
         <div className="w-full h-auto flex items-center justify-center absolute top-10 lg:top-14 z-20 ">
             <Button2 text="Testimonials" />
         </div>
-        <div className="relative w-full h-auto flex items-center justify-center lg:justify-between flex-col lg:flex-row px-4 md:px-6 lg:px-20 py-32 lg:py-24 ">
+        <div className="relative w-full h-auto flex items-center justify-center lg:justify-between gap-6 flex-col lg:flex-row px-4 md:px-6 lg:px-20 py-32 lg:py-24 ">
             {/* left part */}
             <div className="h-auto w-full lg:w-1/3 flex items-center justify-center flex-col ">
-                <div className="h-auto w-full flex items-center justify-center ">
-                    <p className="text-[#202020] text-[24px] font-semibold leading-[40px] lg:pl-4 text-center">
+                <div className="h-auto w-full flex items-center justify-center px-14 md:px-0">
+                    <p className="text-[#202020] text-[24px] font-semibold leading-[40px] lg:pl-4">
                         What Founders Are Saying About LaunchPad Labs
                     </p>
                 </div>

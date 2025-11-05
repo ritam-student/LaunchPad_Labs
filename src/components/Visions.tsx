@@ -11,7 +11,7 @@ function Visions() {
     return <div className="bg-[#F3F7F8] h-auto w-full py-16 px-6 md:px-12 lg:px-24 ">
         <div className="h-auto w-full flex items-center flex-col md:flex-row justify-center md:justify-between gap-6 ">
             <div>
-                <h2 className="font-semibold text-[48px] leading-[51px]  ">From vision to <span className="font-semibold text-[48px] leading-[51px] ">Launchpad</span></h2>
+                <h2 className="font-semibold text-[48px] leading-[51px]  ">From vision to <span className="font-semibold text-[48px] leading-[51px] bg-gradient-to-r from-[#1E3AEB] to-[#19AFFF] text-transparent bg-clip-text">Launchpad</span></h2>
                 <p className="text-[#686868] font-[500] text-[17px] leading-[31px] mt-6">Explore some of the MVPs and products we've brought to life</p>
             </div>
             <div className="relative h-auto w-full md:w-auto flex items-center justify-center ">

@@ -42,7 +42,7 @@ function BookCall() {
             <div className="flex flex-col justify-center gap-2 mt-12">
                 {
                     questions.map((item, index) => (
-                        <DoubtBox key={index} question={item.question} answer={item.answer} index={index} open={currentOpenBox === index ? true : false} setCurrentOpenBox={setCurrentOpenBox} />
+                        <DoubtBox key={index} question={item.question} answer={item.answer} index={index} open={currentOpenBox === index ? true : false} setCurrentOpenBox={setCurrentOpenBox} currentOpenBox={currentOpenBox} />
                     ))
                 }
             </div>
@@ -64,16 +64,25 @@ function BookCall() {
   </div>
 }
 
-function DoubtBox({question, answer, index, open, setCurrentOpenBox}: {question: string; answer: string; index: number; open: boolean; setCurrentOpenBox: (index: number) => void;}) {
-    return <div className="bg-white rounded-[17px] px-8 py-2 shadow-lg shadow-[#0000000F] ">
+function DoubtBox({question, answer, index, open, setCurrentOpenBox, currentOpenBox}: {question: string; answer: string; index: number; open: boolean; setCurrentOpenBox: (index: number) => void; currentOpenBox: number;}) {
+
+    function setBoxStatus() {
+        if (currentOpenBox === index) {
+            setCurrentOpenBox(-1);
+        } else {
+            setCurrentOpenBox(index);
+        }
+    }
+
+    return <div onClick={setBoxStatus} className="cursor-pointer bg-white rounded-[17px] px-8 py-2 shadow-lg shadow-[#0000000F] ">
         <div className="w-full h-auto  py-4 flex items-center justify-between gap-10">
             <h4>{question}</h4>
             <div className="cursor-pointer">
                 {
                     open ?
-                    <img src="/heroicons_minus-solid.png" alt="" onClick={() => setCurrentOpenBox(-1)} />
+                    <img src="/heroicons_minus-solid.png" alt="" />
                     :
-                    <img src="/quill_add.png" alt="" onClick={() => setCurrentOpenBox(index)} />
+                    <img src="/quill_add.png" alt="" />
                 }
             </div>
         </div>

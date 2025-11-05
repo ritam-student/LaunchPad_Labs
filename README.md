@@ -1,73 +1,91 @@
-# React + TypeScript + Vite
+# LaunchPad Labs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>A small marketing / agency-style React + Vite + TypeScript starter project built with Tailwind CSS. This repository contains the front-end UI and components for the LaunchPad Labs site.
 
-Currently, two official plugins are available:
+Figma design (source): https://www.figma.com/design/sAzopLV7aQhA6w72YcXmST/Untitled?node-id=1-2063&t=f7mpzEHI1aXvTOiq-0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Quick overview
 
-## React Compiler
+- Framework: React (TypeScript)
+- Bundler / dev server: Vite
+- Styling: Tailwind CSS + PostCSS
+- Linting: ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a small component-driven site. The `src/` directory contains React components and pages used by the app.
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `src/` - application source (components, pages, styles)
+  - `components/` - UI sections (Navbar, Hero, Footer, etc.)
+  - `pages/` - top-level pages (Home)
+  - `ui/` - small presentational components and UI atoms
+- `public/` - static assets
+- `index.html` - Vite entry
+- `vite.config.ts`, `tsconfig.*` - build and TypeScript config
+- `package.json` - scripts & dependencies
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (recommended: 18.x or newer)
+- npm (or Yarn / pnpm)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Install
+
+Open a terminal in the project root and run:
+
+```powershell
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This installs dependencies listed in `package.json`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Available scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The project exposes the following npm scripts (from `package.json`):
+
+- `npm run dev` - start the Vite development server
+- `npm run build` - build production assets (runs TypeScript build then `vite build`)
+- `npm run preview` - locally preview the production build (`vite preview`)
+- `npm run lint` - run ESLint across the project
+
+Example (start dev server):
+
+```powershell
+npm run dev
 ```
+
+The dev server will start and show a local URL (typically `http://localhost:5173`) to open in your browser.
+
+## Tailwind / Styling
+
+Tailwind is configured via `tailwind.config.js` and PostCSS is configured in `postcss.config.js`. Styles live in `src/index.css` / `src/App.css` and component-scoped CSS files under `src/components/`.
+
+## Design
+
+The UI and visual spec were created in Figma. See the design source linked at the top of this README to review frames, components, spacing, and colors.
+
+## Notes for contributors
+
+- Keep UI components small and focused in `src/components/` and `src/ui/`.
+- Run `npm run lint` before opening a pull request.
+- If adding new dependencies, prefer lightweight, well-maintained packages.
+
+## Next steps / small improvements you might add
+
+- Add unit or integration tests (Jest, React Testing Library).
+- Add CI to run lint + build on PRs.
+- Add accessibility checks and performance audits.
+
+## License
+
+This repository currently has no license file. Add a `LICENSE` file if you want to set the project's license.
+
+---
+
+If you'd like, I can also:
+
+- Add a small README screenshot / preview section (take a screenshot of dev server).
+- Create a CONTRIBUTING.md with branch/PR guidelines.
+- Add a `LICENSE` file (choose one).
+
+If you'd like any of those, tell me which and I'll add them.

@@ -29,13 +29,13 @@ function Visions() {
         </div>
 
         <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-20">
-            <div className="p-6 py-8 w-[90%] md:w-[55%] ">
+            <div className="md:p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>
                 <div className="flex items-center justify-start gap-3 my-2">
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">UI/UX</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Web Development</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Mobile App</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">UI/UX</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Web Development</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Mobile App</div>
                 </div>
                 <Link to='/case-study' className="bg-gradient-to-r from-[#9CC6FF] to-[#00D0FF] rounded-[31px] p-[2px] inline-block cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out mt-20">
                     <div className="bg-white rounded-[31px] flex items-center justify-center p-2 h-auto w-full gap-1 ">
@@ -50,13 +50,13 @@ function Visions() {
         </div>
 
         <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8">
-            <div className="p-6 py-8 w-[90%] md:w-[55%] ">
+            <div className="md:p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>
                 <div className="flex items-center justify-start gap-3 my-2">
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">UI/UX</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Web Development</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Mobile App</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">UI/UX</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Web Development</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Mobile App</div>
                 </div>
                 <Link to='/case-study' className="bg-gradient-to-r from-[#9CC6FF] to-[#00D0FF] rounded-[31px] p-[2px] inline-block cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out mt-20">
                     <div className="bg-white rounded-[31px] flex items-center justify-center p-2 h-auto w-full gap-1 ">
@@ -71,13 +71,13 @@ function Visions() {
         </div>
 
         <div className="bg-[#FFFFFF] shadow-lg shadow-[#0000001A] rounded-[16px] px-2 py-4 flex items-center justify-center gap-4 md:justify-between flex-col md:flex-row mt-8 mb-16">
-            <div className="p-6 py-8 w-[90%] md:w-[55%] ">
+            <div className="md:p-6 py-8 w-[90%] md:w-[55%] ">
                 <h2 className="text-[#404040] text-[26px] font-semibold leading-[31px]  ">FitAI</h2>
                 <p className="text-[#686868] font-[500] text-[15px] leading-[31px] my-5 ">FitAI brings personalized, AI-powered home workouts to your fingertips — tailored plans, real-time guidance, and progress tracking to help you stay fit anytime, anywhere.</p>
                 <div className="flex items-center justify-start gap-3 my-2">
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">UI/UX</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Web Development</div>
-                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[11px] md:text-[14px] font-medium leading-[31px] ">Mobile App</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">UI/UX</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Web Development</div>
+                    <div className="bg-[#E1EFF9] rounded-[32px] px-3 md:px-4 py-1 md:py-2 text-[#000000] text-[10px] md:text-[14px] font-medium leading-[16px] md:leading-[31px] text-center">Mobile App</div>
                 </div>
                 <Link to='/case-study' className="bg-gradient-to-r from-[#9CC6FF] to-[#00D0FF] rounded-[31px] p-[2px] inline-block cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out mt-20">
                     <div className="bg-white rounded-[31px] flex items-center justify-center p-2 h-auto w-full gap-1 ">

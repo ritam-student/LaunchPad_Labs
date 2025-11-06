@@ -1,7 +1,8 @@
 import Button2 from "./ui/Button2";
+import "./founder.css";
 
 function Founder() {
-  return <div className="px-6 md:px-12 lg:px-24 py-24 bg-[#F3F7F8] ">
+  return <div className="px-6 md:px-12 lg:px-24 py-24 bg-[#F3F7F8] relative -z-20 bg-grid-pattern ">
         <div className="h-auto w-full pt-4 md:pt-6 lg:pt-8 flex items-center justify-center">
             <Button2 text="Our Founder" />
         </div>
@@ -29,7 +30,11 @@ function Founder() {
                 </div>
             </div>
         </div>
-        
+
+        <div className="w-full h-[50%] -z-10 bg-[#F3F7F8] absolute top-0 left-0 right-0 "></div>
+        <div className="w-full h-[20%] -z-10 bg-[#F3F7F8] absolute bottom-0 left-0 right-0 "></div>
+        <div className="w-[10%] h-[100%] -z-10 bg-[#F3F7F8] absolute top-0 left-0 bottom-0 hidden lg:block"></div>
+        <div className="w-[10%] h-[100%] -z-10 bg-[#F3F7F8] absolute top-0 right-0 bottom-0 hidden lg:block"></div>
     </div>
 }
 
